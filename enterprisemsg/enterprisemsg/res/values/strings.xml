@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, EnterprisemsgActivity!</string>
+    <string name="app_name">Enterprisemsg</string>
+    <string name="btn_clearall">Clear All</string>
+    <string name="btn_tts_play">Play</string>
+    <string name="btn_tts_stop">Stop</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="txt_delete_all_confirm">Are you going to delete all the items ?</string>
+    <string name="txt_delete_one_confirm">Are you going to delete this item ?</string>
+    <string name="txt_unread_message_1">You have </string>
+    <string name="txt_unread_message_2"> unread messages.</string>
+</resources>

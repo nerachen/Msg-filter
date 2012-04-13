@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ShadowButtonText" parent="@android:style/Widget.TextView">
+    	<item name="android:textColor">#ffffffff</item>
+    	<item name="android:textSize">20sp</item>
+    	<item name="android:textStyle">bold</item>
+    	<item name="android:shadowColor">#000000</item>
+    	<item name="android:shadowDx">3</item>
+    	<item name="android:shadowDy">3</item>
+    	<item name="android:shadowRadius">3</item>
+  	</style>
+  	<style name="ShadowButtonTextNormal" parent="@android:style/Widget.TextView">
+    	<item name="android:textColor">#ffffffff</item>
+    	<item name="android:textSize">16sp</item>
+    	<item name="android:textStyle">bold</item>
+    	<item name="android:shadowColor">#000000</item>
+    	<item name="android:shadowDx">0</item>
+    	<item name="android:shadowDy">0</item>
+    	<item name="android:shadowRadius">0</item>
+  	</style>
+  	<style name="AppTitleText" parent="@android:style/Widget.TextView">
+    	<item name="android:textColor">#ffffffff</item>
+    	<item name="android:textSize">22sp</item>
+    	<item name="android:textStyle">bold</item>
+  	</style>
+  	<style name="MsgFromText" parent="@android:style/Widget.TextView">
+    	<item name="android:textColor">#ff000000</item>
+    	<item name="android:textSize">18sp</item>
+  	</style>
+  	<style name="MsgFromTextLarge" parent="@android:style/Widget.TextView">
+    	<item name="android:textColor">#ffFFFFFF</item>
+    	<item name="android:textSize">22sp</item>
+    	<item name="android:textStyle">bold</item>
+  	</style>
+  	<style name="MsgBodyText" parent="@android:style/Widget.TextView">
+    	<item name="android:textColor">#ff3f3f3f</item>
+    	<item name="android:textSize">18sp</item>
+  	</style>
+  	<style name="MsgBodyTextLarge" parent="@android:style/Widget.TextView">
+    	<item name="android:textColor">#ff000000</item>
+    	<item name="android:textSize">22sp</item>
+  	</style>
+  	<style name="MsgTimeText" parent="@android:style/Widget.TextView">
+    	<item name="android:textColor">#ffFFFFFF</item>
+    	<item name="android:textSize">18sp</item>
+    	<item name="android:textStyle">bold</item>
+  	</style>
+
+  	<style name="LargeTitleTheme">
+        <item name="android:windowTitleSize">40dip</item>
+    </style>
+  	<style name="PopupActivityDialog" parent="@android:style/Theme.Dialog">      
+   		<item name="android:windowBackground">@drawable/login_popup</item>  
+   		<item name="android:windowNoTitle">true</item>
+	</style>
+</resources>

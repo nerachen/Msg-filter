@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/message_bg" >
+
+    <LinearLayout 
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_button_states" 
+            android:layout_marginLeft="10px"
+            android:layout_gravity="left|center"/>
+
+        <LinearLayout 
+        	android:id="@+id/linearLayout1"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="center"
+        	android:layout_weight="1"
+        	android:layout_marginLeft="20px"
+        	android:orientation="vertical" >
+        	<TextView 
+    			android:id="@+id/labelfrom"
+    			android:layout_width="fill_parent"
+    			android:layout_height="wrap_content"
+    			android:paddingTop="4dip"
+    			android:singleLine="true"
+    			android:ellipsize="end"
+    			style="@style/MsgFromTextLarge"
+    			android:layout_weight="1"
+    			android:layout_marginTop="9px"/>
+    		<TextView 
+    			android:id="@+id/labeltime"
+    			android:layout_width="fill_parent"
+    			android:layout_height="wrap_content"
+    			android:layout_marginTop="6px"
+    			android:layout_marginBottom="9px"
+    			android:singleLine="true"
+    			android:ellipsize="end"
+    			style="@style/MsgTimeText"
+    			android:layout_weight="1"
+    			/>
+		</LinearLayout>
+        <Button
+            android:id="@+id/btnttsplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_tts_play"
+            android:background="@drawable/blue_button_states"
+            android:layout_gravity="right|center"
+            android:gravity="center"
+            style="@style/ShadowButtonText" 
+            android:layout_marginRight="25px" />
+        <Button
+            android:id="@+id/btnttsstop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_tts_stop"
+            android:background="@drawable/blue_button_states"
+            android:layout_gravity="right|center"
+            android:gravity="center"
+            style="@style/ShadowButtonText"
+            android:visibility="gone"
+            android:layout_marginRight="25px" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_weight="1"
+    		>
+    	<TextView android:id="@+id/labelbody"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:singleLine="false"
+    		style="@style/MsgBodyTextLarge"
+    		android:paddingLeft="20px"
+    		android:layout_weight="1"
+    		>
+    	</TextView>
+    </ScrollView>
+    <ImageButton
+            android:id="@+id/btndel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/del_button_states"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+</LinearLayout>

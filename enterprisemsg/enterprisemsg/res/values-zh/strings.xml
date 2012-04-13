@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, EnterprisemsgActivity!</string>
+    <string name="app_name">企业信息</string>
+    <string name="btn_clearall">清除</string>
+    <string name="btn_tts_play">朗读</string>
+    <string name="btn_tts_stop">停止</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_confirm">确认</string>
+    <string name="txt_delete_all_confirm">确认要删除所有信息?</string>
+    <string name="txt_delete_one_confirm">确认要删除此信息?</string>
+    <string name="txt_unread_message_1">你有 </string>
+    <string name="txt_unread_message_2"> 未读短信.</string>
+</resources>

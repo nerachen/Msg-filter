@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/msgitemview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/msg_item_selector_old"
+        android:clickable="true" >
+        <ImageView android:id="@+id/descripimg"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_gravity="center|top"
+        		android:gravity="center"
+        		android:scaleType ="centerInside"
+        		android:layout_marginLeft="20px"
+        		android:layout_marginRight="5px"
+        		android:layout_marginTop="7px"
+        		 />
+       <LinearLayout android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	android:layout_weight="1"
+        	>
+			<TextView 
+    			android:id="@+id/labelfrom"
+    			android:layout_width="fill_parent"
+    			android:layout_height="wrap_content"
+    			android:layout_marginTop="6px"
+    			android:singleLine="true"
+    			android:ellipsize="end"
+    			style="@style/MsgFromText"
+    			android:layout_weight="1"/>
+    		<TextView 
+    			android:id="@+id/labelbody"
+    			android:layout_width="fill_parent"
+    			android:layout_height="wrap_content"
+    			android:singleLine="true"
+    			android:ellipsize="end"
+    			style="@style/MsgBodyText"
+    			android:layout_weight="1"
+    			android:layout_marginTop="4px"
+    			android:layout_marginBottom="4px"
+    			/>
+    	</LinearLayout>
+    	<Button
+            android:id="@+id/btnttsplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_tts_play"
+            android:background="@drawable/blue_button_states"
+            android:layout_gravity="right|center"
+            android:gravity="center"
+            style="@style/ShadowButtonText"
+            android:layout_marginRight="25px" />
+        <Button
+            android:id="@+id/btnttsstop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_tts_stop"
+            android:background="@drawable/blue_button_states"
+            android:layout_gravity="right|center"
+            android:gravity="center"
+            style="@style/ShadowButtonText"
+            android:visibility="gone"
+            android:layout_marginRight="25px" />
+</LinearLayout>

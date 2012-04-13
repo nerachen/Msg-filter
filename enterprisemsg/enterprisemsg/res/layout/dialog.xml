@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="491dp"
+    android:layout_height="178dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+	<LinearLayout 
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight ="1"/>
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:layout_weight ="2"
+        android:gravity="center"
+        >
+        <LinearLayout 
+    		android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight ="1"/>
+        <ImageView
+        	android:id="@+id/imgquery"
+        	android:layout_width="27dp"
+        	android:layout_height="27dp"
+        	android:gravity="center|right"
+        	android:src="@drawable/icon_sure" 
+        	/>
+        <TextView
+        	android:id="@+id/textqueryinfo"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="22sp"
+        	android:gravity="center"
+        	android:layout_marginLeft="40dp"
+        	android:singleLine="false"
+        	>
+        </TextView>
+         <LinearLayout 
+    		android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight ="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight ="2"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/btnconfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_button_states"
+            android:text="@string/btn_confirm"
+            style="@style/ShadowButtonText"
+            android:layout_gravity="center"
+            android:layout_marginRight="40px">
+        </Button>
+        <Button
+            android:id="@+id/btncancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_button_states"
+            android:text="@string/btn_cancel"
+            style="@style/ShadowButtonText"
+            android:layout_gravity="center">
+        </Button>
+        
+    </LinearLayout>
+    <LinearLayout 
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight ="1"/>
+</LinearLayout>
