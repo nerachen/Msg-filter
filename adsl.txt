@@ -1,7 +1,0 @@
-ad44442570
-¡ñ¡ñ¡ñ¡ñ¡ñ¡ñ¡ñ¡ñ
-10444651
-
-qmake -project
-qmake xxx.pro
-qmake -tp vc xxx.pro
